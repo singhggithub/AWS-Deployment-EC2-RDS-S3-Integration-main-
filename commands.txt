@@ -1,0 +1,44 @@
+Important Commands:
+
+
+# For Sql-client
+sudo apt-get update
+sudo apt-get install mysql-client
+
+# For python and related frameworks
+sudo apt-get install python3
+sudo apt-get install python3-pip
+sudo apt-get install python3-flask
+sudo apt-get install python3-pymysql
+sudo apt-get install python3-boto3
+
+# for running Python application
+sudo python3 Empapp.py
+
+sudo apt-get update
+sudo apt-get mysql-client
+mysql -h <rds_endpoint> -u <username> -p 
+
+#Python Script
+sudo python3 EmpApp.py
+
+#SQL Query:
+show databases
+use employee;
+select * from employee;
+
+To Create Table:
+create table employee (
+-> empid varchar(20),
+-> fname varchar(20),
+-> lname varchar(20),
+-> pri_skill varchar(20),
+-> location varchar(20));
+
+#Python Config File
+customhost="rds-endpoint link"
+customuser="DB Username"
+custompass="DB Password"
+customdb="employee"
+custombucket="S3 Bucket Name"
+customregion="Region name you deployed services"

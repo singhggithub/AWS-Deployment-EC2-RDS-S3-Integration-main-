@@ -1,0 +1,6 @@
+customhost = ""
+customuser = ""
+custompass = ""
+customdb = "employee"
+custombucket = "testbuckettest"
+customregion = "us-east-1"
